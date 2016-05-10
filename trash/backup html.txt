@@ -1,0 +1,42 @@
+<h3>Waiting for messages</h3>
+    <label>my Application ID is <input id="appid" type="text"  readonly></input></label>
+    <div>
+      <label for="sendText">Send message:</label>
+      <input id="sendText" type="text"></input>
+      <label for="sendId">to application ID </label>
+      <input id="sendId" type="text" value="dbaajpibdjhihnamhjjecihhpemamgdb"></input>
+      <button id="send">Send</button>	  
+    </div>
+		    
+	<div id="content">
+	<fieldset>
+		<legend>Server Location</legend>
+		<div>
+			<label>URL:</label>
+			<input type="text" id="serverUrl" value="ws://"/>
+			<button id="connectButton">Open</button>
+			<button id="disconnectButton">Close</button>
+		</div>
+		<div>
+			<label>Status:</label>
+			<span id="connectionStatus">CLOSED</span>
+		</div>
+	</fieldset>
+	<fieldset id="requestArea">
+		<legend>Request</legend>
+		<div>
+			<textarea id="sendMessage" disabled="disabled"></textarea>
+		</div>
+		<div>
+			<button id="sendButton" disabled="disabled">Send</button>
+			[Shortcut] Ctr + Enter
+		</div>
+	</fieldset>
+	<fieldset id="messageArea">
+		<legend>Message Log <button id="clearMessage">Clear</button></legend>
+		<div id="messages"></div>
+	</fieldset>
+</div>
+
+	
+	<div id="log"></div>

@@ -1,0 +1,54 @@
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 10px 40px;
+	display: inline-block;
+	/**margin: 15px 30px;**/
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	/**font-weight: 700;**/
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;	
+    WIDTH: 40%;
+	max-width:450px;
+}
+
+/* Button 2 */
+.btn-2 {
+	background: #cb4e4e;
+	color: white;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button 2a */
+.btn-2a {
+	border-radius: 0 0 5px 5px;
+}
+
+.btn-2a:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.btn-2a:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+#sendButton{
+float:right;
+}
+#disconnectButton{
+float:right;
+}

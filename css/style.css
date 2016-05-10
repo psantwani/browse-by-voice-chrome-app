@@ -1,0 +1,148 @@
+body {
+  background-color: #34364a;
+  margin: 0;
+  /**font-family: 'Lato', sans-serif;**/
+  font-family: font-family:'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro','ƒƒCƒŠƒI',Meiryo,'‚l‚r ‚oƒSƒVƒbƒN',sans-serif;
+	color: #000;	
+	font-size: 10pt;
+}
+body.light {
+  background-color: #e5e8ea;
+}
+
+form {
+  width: 470px;
+  margin: 5em auto;
+  border: none;
+}
+
+#ActionButtons{
+	width: 470px;
+  margin: 5em auto;
+  border: none;
+}
+
+.color-2{
+width:100%;
+margin: 5em auto;
+}
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+form .input-wrapper {
+  border: 1px solid #ea5662;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  margin: 5px 0 0;
+  position: relative;
+  height: 2.5em;
+  -webkit-transition: all 100ms ease-in 50ms;
+  transition: all 100ms ease-in 50ms;
+}
+form .input-wrapper.last {
+  border-bottom: 1px solid #ea5662;
+}
+form .input-wrapper.focus {
+  background-color: white;
+}
+form label {
+  background-color: #ea5662;
+  position: absolute;
+  color: #eee;
+  font-weight: 400;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 1em 1.5em;
+  box-sizing: border-box;
+  width: 170px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 3.3em;
+}
+form input[type=text] {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  left: 170px;
+  top: -4px;
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-top: 4px;
+  height: 1.3em;
+  padding: 0.68em 1.5em;
+  width: 200px;
+  outline: none;
+  color: #34364a;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+form button {
+  float: right;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  text-indent: -999em;
+  color: transparent;
+  border: none;
+  margin: .9em 1.3em .55em 0.2em;
+  outline: none;
+}
+form button.icon-edit {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78060/edit.svg");
+  margin-top: 0.8em;
+}
+form button.icon-add {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78060/add.svg");
+  width: 18px;
+  height: 18px;
+  margin-right: 1.5em;
+}
+form button.icon-save {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78060/save.svg");
+  margin-right: 1.35em;
+  margin-top: 0.75em;
+  width: 22px;
+  height: 22px;
+}
+form button.icon-cancel {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78060/close.svg");
+  width: 17px;
+  height: 17px;
+  margin-top: 1em;
+  margin-right: 1.5em;
+}
+form ::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 100;
+}
+form :-moz-placeholder {
+  font-style: italic;
+  font-weight: 100;
+}
+form ::-moz-placeholder {
+  font-style: italic;
+  font-weight: 100;
+}
+form :-ms-input-placeholder {
+  font-style: italic;
+  font-weight: 100;
+}
+form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+form input:focus:-moz-placeholder {
+  color: transparent;
+}
+form input:focus::-moz-placeholder {
+  color: transparent;
+}
+form input:focus:-ms-input-placeholder {
+  color: transparent;
+}

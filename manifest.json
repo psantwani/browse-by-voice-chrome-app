@@ -1,0 +1,24 @@
+{
+    "name": "Browse By Voice Manager",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description" : "This app will function only with the 'Browse by voice' chrome extension.",        
+	"app": {
+    "background": {
+      "scripts": ["main.js"],
+	  "persistent": true
+    }
+	},
+	"icons": { "16": "images/bbv_16.png",
+           "48": "images/bbv_64.png",
+          "128": "images/bbv_128.png" },
+	"permissions": [
+		"audioCapture", {"fileSystem": ["write", "retainEntries", "directory"]},
+		"storage","system.network"
+	],
+	"sockets": {
+    "tcpServer" : {
+      "listen": ["*"]
+    }
+  }
+}

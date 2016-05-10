@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<script type="text/javascript" src="js/annyang.min.js"></script>
+	<script src="js/jquery.min.js"></script>	    		
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />	
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<form autocomplete="off">
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Local App ID</label>
+      <input placeholder="Chrome App Id" type="text" name="test_mobile_user" id="appid" class="editableInput" value="drew_mc"/>      
+    </div>
+</fieldset>
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Local Ext ID</label>
+      <input placeholder="Chrome Ext Id" type="text" name="test_mobile_user" id="sendId" class="editableInput" value=""/>      
+    </div>
+</fieldset>
+
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Command</label>
+      <input placeholder="Enter Command" type="text" name="test_mobile_user" id="sendText" class="editableInput"/>      
+    </div>
+</fieldset>
+
+
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Server Location</label>
+      <input placeholder="Enter URL" type="text" name="test_mobile_user" id="serverUrl" class="editableInput" value="ws://"/>      
+    </div>
+</fieldset>
+
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Conn Status</label>
+      <input placeholder="Socket Connection Status" type="text" name="test_mobile_user" id="connectionStatus" value="Closed"/>      
+    </div>
+</fieldset>
+
+<fieldset>
+<div class="input-wrapper add-value">
+      <label for="test_mobile_user">Audio Command</label>
+      <input placeholder="Audio Msg From Android" type="text" name="test_mobile_user" id="sendMessage" class="editableInput"/>      
+    </div>
+</fieldset>
+
+</form>
+<div id="ActionButtons">
+<section class="color-2">	
+		<p><button class="btn btn-2 btn-2a" id = "send">Fire Command</button>
+		<button class="btn btn-2 btn-2a" id = "sendButton">Send To Android</button>	</p>
+		<p><button class="btn btn-2 btn-2a" id = "connectButton">Connect Android </button>
+		<button class="btn btn-2 btn-2a" id = "disconnectButton">Disconnect Android</button></p>
+		
+</section>
+</div>
+        	 
+  <script src="js/classie.js"></script>  
+    <script src="index.js"></script>	
+</body>
+</html>
